@@ -29,7 +29,7 @@ def monkey_patches(request):
         thread=False,
         os=False,
         ssl=False,
-        httplib=True,
+        httplib=False,
         aggressive=False,
     )
 
